@@ -23,7 +23,7 @@ body{
 }
     .carrossel-slides {
         display: flex;
-        width:30%;
+        width:300%;
         height: 100%;
         animation: slide 15s infinite;
 
@@ -74,6 +74,8 @@ body{
         height: 12px;
         border-radius: 50%;
         background: rgba(255, 255, 255, 0.5);
+    }
+
 }
 
 .indicator:nth-child(1) {
@@ -85,3 +87,41 @@ body{
 .indicator:nth-child(3) {
     animation-delay: 10s;
 }
+
+
+@keyframes indicator2 {
+    0%, 30%, 100% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    33%, 63% {
+        background: white;
+    }
+    66%, 96% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.indicator:nth-child(2) {
+    animation: indicator2 15s infinite;
+} 
+.indicator:nth-child(3) {
+    animation: indicator3 15s infinite;
+} 
+@keyframes indicator3 {
+    0%, 30%, 100% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+    33%, 63% {
+        background: white;
+    }
+    66%, 96% {
+        background: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.indicator:nth-child(2) {
+    animation: indicator2 15s infinite;
+} 
+.indicator:nth-child(3) {
+    animation: indicator3 15s infinite;
+} 
