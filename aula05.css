@@ -14,7 +14,7 @@ justify-content: center;
 }
 
 .container {
-    width: 80%;
+    width: 90%;
     height: 80%;
     border: 3px solid red;
     background-color: white;
@@ -25,10 +25,13 @@ justify-content: center;
 }
 
 .linha{
-    width: 80%;
+    width: 90%;
     height: 100px;
     padding: 10px;
     background-color: aqua;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .input {
